@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ec900128fbff24683f8f2aac8c2192, type: 3}
+  m_Name: Blowing Pine Needles
+  m_EditorClassIdentifier: 
+  WeatherTypeName: Blowing Pine Needles
+  SunIntensity: 1
+  MoonIntensity: 1
+  MinimumFogLevel: 300
+  MaximumFogLevel: 600
+  FogDensity: 0.0025
+  StormyFogDensity: 0.0015
+  MaximumFogDensity: 0.0015
+  FogSpeedMultiplier: 1
+  WindSpeedLevel: 0.85
+  WindBendingLevel: 0.2
+  WindIntensity: 1
+  WeatherEffect: {fileID: 198477604681521520, guid: ac8c53d8e2f75034088e07b4e78b2095,
+    type: 2}
+  ParticleEffectAmount: 30
+  ParticleEffectVector: {x: 0, y: 7, z: -10}
+  AdditionalWeatherEffect: {fileID: 0}
+  AdditionalParticleEffectAmount: 200
+  AdditionalParticleEffectVector: {x: 0, y: 28, z: 0}
+  WeatherVolume: 0.15
+  WeatherSound: {fileID: 8300000, guid: 7b61d7e0abee2f84db505d2380db4ea2, type: 3}
+  PrecipitationWeatherType: 1
+  UseWeatherSound: 0
+  UseWeatherEffect: 0
+  UseAdditionalWeatherEffect: 1
+  SpecialWeatherType: 1
+  Season: 4
+  CloudLevel: 5
+  TemperatureType: 2
+  ShaderControl: 2
+  UseLightning: 1
+  CustomizeWeatherIcon: 0
+  WeatherIcon: {fileID: 2800000, guid: 821f36104644f734bbc4f8c2d78c7ca6, type: 3}

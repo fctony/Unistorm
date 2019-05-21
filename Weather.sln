@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Assembly-CSharp.csproj", "{CF5EC3AB-AA9C-AB70-CED1-CBFC1DE79979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Assembly-CSharp-Editor.csproj", "{9BDF7A00-88A1-8D87-F7D2-FCB731B5C8CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5EC3AB-AA9C-AB70-CED1-CBFC1DE79979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5EC3AB-AA9C-AB70-CED1-CBFC1DE79979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5EC3AB-AA9C-AB70-CED1-CBFC1DE79979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5EC3AB-AA9C-AB70-CED1-CBFC1DE79979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF7A00-88A1-8D87-F7D2-FCB731B5C8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF7A00-88A1-8D87-F7D2-FCB731B5C8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF7A00-88A1-8D87-F7D2-FCB731B5C8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF7A00-88A1-8D87-F7D2-FCB731B5C8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

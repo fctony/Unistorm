@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UniStorm Stars
+  m_Shader: {fileID: 4800000, guid: d9d4b9c51767a43429b9fa2f6c7a063b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2600
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 839e72d590d865c44b9e77ef03cada5e, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0.0024048241, y: 0.02}
+    - _MainTex1:
+        m_Texture: {fileID: 2800000, guid: 091c4ee8cd32b9844a3ac6c16e0b3210, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 2800000, guid: 839e72d590d865c44b9e77ef03cada5e, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 2800000, guid: 839e72d590d865c44b9e77ef03cada5e, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex1:
+        m_Texture: {fileID: 2800000, guid: 48d4a428de5696b4b98c6d02d25f8573, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex2:
+        m_Texture: {fileID: 2800000, guid: 39b1fc2e39684a743814da01bedaa456, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CloudThickness: 1
+    - _FogAmount: 1
+    - _HiY: 2000
+    - _InvFade: 3
+    - _LoY: 10000
+    - _MoonFade: 0
+    - _RotationA: 0
+    - _RotationSpeed: 1
+    - _Shininess: 0.7
+    - _StarSpeed: 2
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _MoonColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _RotationSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TintColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

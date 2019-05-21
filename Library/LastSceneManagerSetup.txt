@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UniStorm 3.0/Demo/Scenes/Standard Demo.unity
+  isLoaded: 1
+  isActive: 1

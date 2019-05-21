@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UniStorm Moon
+  m_Shader: {fileID: 4800000, guid: d448e4f73b405c14584955facdc9f5bc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 2600
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7f48b1b174e78ab40ba0e699e9f3531f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMask:
+        m_Texture: {fileID: 2800000, guid: 90d8d315573b4ec4aba9bba7d559d41c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0
+    - _FloatMax: 0.9255085
+    - _FloatMin: 0.7793727
+    - _FogAmount: 1
+    - _FogAmountMax: 50000
+    - _FogAmountMin: 0
+    - _InvFade: 3
+    - _MoonBrightness: 0.45
+    - _MoonFade: 0.62
+    - _Shininess: 1
+    m_Colors:
+    - _AlphaColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmisColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Emission: {r: 0.37313432, g: 0.37313432, b: 0.37313432, a: 1}
+    - _FogColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 0.22794116, g: 0.22794116, b: 0.22794116, a: 0.24313726}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

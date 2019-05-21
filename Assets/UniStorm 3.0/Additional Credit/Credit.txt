@@ -1,0 +1,8 @@
+Mud 1 and Mud 2 textures by: Unity Technologies and their "Viking Village" Demo
+Grass 1 and Forest textures by: Unity Technologies and their "The Blacksmith" Demo
+Weather Icons by: MerlinTheRed on deviantart.com
+Thunder sounds by: juskiddink from freesound.org
+Lightning strike sound by: Unity Technologies and their "Tower Defense Template" Demo
+Wood and Rock_1_D texture from: Textures.com
+LightningParticle, ParticleCloudBlack, ParticleCloudWhite, ParticleFirecloud, ParticleFlamesSheet, 
+ParticleFlare, Hail, Mist, and Rain Splash texture by Unity Technologies and their "Unity Particle Pack" Asset

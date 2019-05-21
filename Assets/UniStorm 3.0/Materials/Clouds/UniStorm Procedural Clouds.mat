@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UniStorm Procedural Clouds
+  m_Shader: {fileID: 4800000, guid: 4c5e628a60a5f83418a5d2d9823c0066, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Jitter:
+        m_Texture: {fileID: 2800000, guid: c13e17708ac9aae40b89f5e8e522356b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 26c43df6e09853a4489af908355bffcd, type: 3}
+        m_Scale: {x: 1.5, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 2800000, guid: 3308c51fd40dec740b1fa721259d110c, type: 3}
+        m_Scale: {x: 1.25, y: 1.25}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 2800000, guid: 3308c51fd40dec740b1fa721259d110c, type: 3}
+        m_Scale: {x: 0.75, y: 0.75}
+        m_Offset: {x: 0, y: 0}
+    - samplerPerlinPerm2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Atten: 0.5
+    - _Attenuation: 1
+    - _BumpAmt: 10
+    - _CloudCover: 0.75
+    - _CloudDensity: 0.5
+    - _CloudJitterCustom: 0
+    - _CloudSharpness: 0.7
+    - _Curvature: 499
+    - _Distort: 0.921
+    - _FogAmount: 0
+    - _Freq: 1
+    - _HiY: 0
+    - _HiY2: -1000
+    - _LoY: 1
+    - _LoY2: 1725
+    - _MaxVisDistance: 10
+    - _MinVisDistance: 0
+    - _NoiseScale: 4.5
+    - _Radius: 3
+    - _ScaleTest: 1
+    - _Seed: 10.68
+    - _ShadowStrength: 22
+    - _Speed: 0
+    - _TestNoise: 0
+    - _WorldPosGlobal: 0
+    - _WorldPosHigh: 2500
+    - _WorldPosLow: 3500
+    m_Colors:
+    - _Ambient: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    - _BaseColor: {r: 0.6764706, g: 0.6764706, b: 0.6764706, a: 1}
+    - _CloudMoveSpeed: {r: 0.0003, g: 0, b: 0, a: 0}
+    - _CloudScale: {r: 0.1, g: 0.1, b: 1, a: 0}
+    - _CloudSeed: {r: 0.001, g: 0, b: 0, a: 1}
+    - _CloudSpeed: {r: 0.001, g: 0, b: 0, a: 0.1}
+    - _Color: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    - _LightColor: {r: 1, g: 0.9626775, b: 0.88235295, a: 1}
+    - _SunDir: {r: 1, g: 1, b: 1, a: 0}
+    - worldSpacePosition: {r: 0.001, g: 0, b: 0, a: 0}

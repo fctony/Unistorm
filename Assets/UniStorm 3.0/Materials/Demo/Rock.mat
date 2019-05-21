@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rock
+  m_Shader: {fileID: 4800000, guid: 0238e84658d0cab4f8977533fb5877fd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f81f8efeeeae63f4fa3f0eb47aceca64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 2800000, guid: c8a3a5ad85e957c43ad61a4813914fd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: c8a3a5ad85e957c43ad61a4813914fd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerBump:
+        m_Texture: {fileID: 2800000, guid: 060984e106459a64795599c688cf3d71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerTex:
+        m_Texture: {fileID: 2800000, guid: e3d23591e079b694dbef7559cff1c714, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainBump:
+        m_Texture: {fileID: 2800000, guid: f81f8efeeeae63f4fa3f0eb47aceca64, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2e476ff0553f9d0459419256fec7e1af, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowLayerBump:
+        m_Texture: {fileID: 2800000, guid: b69e9e2f86bd0d345a1461e3451913e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowLayerTex:
+        m_Texture: {fileID: 2800000, guid: f54f13ea00846f648afc29c3174aba0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WetnessBump:
+        m_Texture: {fileID: 2800000, guid: df488afffb2a4254ebdf871429eb0770, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Blend: 0
+    - _DetailIntensity: 0.4
+    - _LayerDepth: 0
+    - _LayerStrength: 0
+    - _Smoothness: 0.2
+    - _SnowBlend: 0
+    - _SnowSmoothness: 0.6
+    - _SnowStrength: 1
+    - _Wetness: 0
+    - _WetnessMultiplier: 0.5
+    - _WetnessStrength: 0.788
+    m_Colors:
+    - _LayerDirection: {r: 0, g: 1, b: 0, a: 1}
+    - _MainTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SnowDirection: {r: 0, g: 1, b: 0, a: 1}
+    - _SnowLayerColor: {r: 1, g: 1, b: 1, a: 1}
